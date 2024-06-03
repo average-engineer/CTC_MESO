@@ -1,0 +1,22 @@
+%% Initialization Script for 2-Link Manipulator
+% Ashutosh Mukherjee
+clear
+close all
+clc
+%% Nominal Dynamic Parameters
+simNominal = struct();
+% Link 1 mass
+simNominal.m1 = 3;
+% Link 2 mass
+simNominal.m2 = 3;
+% Link 1 length
+simNominal.l1 = 0.5;
+% Link 2 length
+simNominal.l2 = 0.5;
+% Proximal distance of link 1 COM
+simNominal.lc1 = 0.4;
+% Proximal distance of link 2 COM
+simNominal.lc2 = 0.4;
+
+%% Actual Dynamic Parameters
+simActual = struct();
