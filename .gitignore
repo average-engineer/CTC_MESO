@@ -1,2 +1,4 @@
-# Ignore specific files
+# Ignore all slprj folders
 **/slprj/
+# Ignore .slxc file
+CTC_2LinkManipulator.slxc
