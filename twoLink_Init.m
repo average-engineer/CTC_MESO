@@ -54,4 +54,4 @@ q1_dot_init = 0;
 q2_dot_init = 0;
 %% Controller Gains
 Kd = [40,0;0,80];
-Kp = [11,0;0,18];
+Kp = [110,0;0,180];
