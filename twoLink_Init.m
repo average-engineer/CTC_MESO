@@ -3,6 +3,7 @@
 clear
 close all
 clc
+format short
 %% Switch between nominal and actual 
 dynSwitch = 0; % 0: Nominal, 1: Actual
 %% Nominal Dynamic Parameters
